@@ -54,15 +54,15 @@ The following parameters can be used to customize our model:
 
 <kbd>output</kbd> specifies the path to store the model. 
 
-<kbd>hidden_feats</kbd> specifies the output size of an attention head in the i-th GAT layer.
+<kbd>hidden_feats</kbd> determines the output size of an attention head in the i-th GAT layer.
 
-<kbd>rnn_embed_dim</kbd> specifies the embedding size of each SMILES token.
+<kbd>rnn_embed_dim</kbd> sets the embedding size of each SMILES token.
 
-<kbd>rnn_hidden_dim</kbd> specifies the number of features in the RNN hidden state.
+<kbd>rnn_hidden_dim</kbd> defines the number of features in the RNN hidden state.
 
 <kbd>fp_dim</kbd> specifies the hidden size of fingerprints module.
 
-<kbd>head</kbd> specifies the head size of multi-view attention.
+<kbd>head</kbd> denotes the head size of multi-view attention.
 
 
 Use the command <code>python main.py -h</code>to check the meaning of other parameters.
