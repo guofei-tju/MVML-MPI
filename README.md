@@ -21,8 +21,11 @@ rdkit==2022.9.3
 
 ## Datasets
 The dataset employed in this study was initially sourced from the publicly accessible [KEGG pathway database](https://www.genome.jp/kegg/pathway.html), comprising $11$ distinct types of metabolic pathways,
+
 The data preprocessing was carried out following the strategy outlined in [Auto-MRS](https://github.com/AutoMachine0/Auto-MSR)
+
 The stsatistics of metabolic pathway dataset is shown as below:
+
 | Metabolic Pathway                  | Classes Number | Ratio |
 |---------------------------------------------|-------------------------|----------------|
 | Biosynthesis of Other Secondary Metabolites | 1084                    | 25.80%         |
