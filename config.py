@@ -3,14 +3,13 @@ import argparse
 
 def parse():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-d", "--train", type=str, default="yeast", help="the training dataset")
     parser.add_argument("-o", "--output", type=str, default="./output/", help="the path of output model")
     parser.add_argument("-c", "--class_num", type=int, default=11, help="the dimension of output")
     parser.add_argument("-i", "--iterations", type=int, default=10, help="the number of running model")
     parser.add_argument("-e", "--epoch", type=int, default=100, help="the max number of epoch")
     parser.add_argument("-s", "--seed", type=int, default=1, help="random seed")
 
-    parser.add_argument('--hidden_feats', type=list, default=[192, 384], help="the size of node representations after the i-th GCN layer")
+    parser.add_argument('--hidden_feats', type=list, default=[192, 384], help="the size of node representations after the i-th GAT layer")
     parser.add_argument('--rnn_embed_dim', type=int, default=128, help="the embedding size of each SMILES token")
     parser.add_argument('--rnn_hidden_dim', type=int, default=384, help="the number of features in the RNN hidden state")
     parser.add_argument('--rnn_layers', type=int, default=2, help="the number of rnn layers")
