@@ -1,7 +1,7 @@
 # Multi-View learning for multi-label metabolic Pathway prediction (MVP)
 
 ## Abstract
-Multi-View learning for multi-label metabolic Pathway prediction framework, hereby named MVP. MVP addresses the issue of current machine learning-based methods by incorporating multi-view compound information, compound encoders, and fusion module.
+Multi-View learning for multi-label metabolic pathway prediction framework, hereby named MVP, addresses the issue of current machine learning-based methods by incorporating multi-view compound information, compound encoders, and a fusion module.
 ![image](./img/MVP.png)
 
 ## Dependencies
@@ -20,11 +20,11 @@ rdkit==2022.9.3
 ```
 
 ## Datasets
-The dataset employed in this study was initially sourced from the publicly accessible [KEGG pathway database](https://www.genome.jp/kegg/pathway.html), comprising $11$ distinct types of metabolic pathways.
+The dataset employed in this study was initially sourced from the publicly accessible KEGG pathway database, comprising $11$ distinct types of metabolic pathways.
 
 The data preprocessing was carried out following the strategy outlined in [Auto-MRS](https://github.com/AutoMachine0/Auto-MSR).
 
-The stsatistics of metabolic pathway dataset is shown as below:
+The statistics of the metabolic pathway dataset are shown below:
 
 | Metabolic Pathway                  | Classes Number | Ratio |
 |---------------------------------------------|-------------------------|----------------|
@@ -41,23 +41,24 @@ The stsatistics of metabolic pathway dataset is shown as below:
 | Glycan Metabolism                           | 96                      | 2.30%          |
 
 
-The datasets are stored in ```./data/kegg_dataset.csv``` and contains 4,192 compound' SMILES and labels.
+The datasets are stored in ```./data/kegg_dataset.csv``` and contains 4,192 compounds' SMILES and labels.
 
-The file ```./data/data_index.txt``` contains the index number of train, validation, and test.
+The file ```./data/data_index.txt``` contains the index numbers of train, validation, and test sets.
 
 ## Running the Experiment
 To run our model based on the default conditions:
 ```bash
 $ python main.py 
 ```
+The following parameters can be used to customize our model:
 
-<kbd>output</kbd> specifies the path to store the model.
+<kbd>output</kbd> specifies the path to store the model. 
 
-<kbd>hidden_feats</kbd> gives the output size of an attention head in the i-th GAT layer.
+<kbd>hidden_feats</kbd> specifies the output size of an attention head in the i-th GAT layer.
 
-<kbd>rnn_embed_dim</kbd> the embedding size of each SMILES token.
+<kbd>rnn_embed_dim</kbd> specifies the embedding size of each SMILES token.
 
-<kbd>rnn_hidden_dim</kbd> the number of features in the RNN hidden state.
+<kbd>rnn_hidden_dim</kbd> specifies the number of features in the RNN hidden state.
 
 <kbd>fp_dim</kbd> specifies the hidden size of fingerprints module.
 
