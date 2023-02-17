@@ -1,7 +1,7 @@
 # Multi-View learning for multi-label metabolic Pathway prediction (MVP)
 
-## Abstract
-Multi-View learning for multi-label metabolic Pathway prediction framework, hereby named MVP, addresses the issue of current machine learning-based methods by incorporating multi-view compound information, compound encoders, and a fusion module.
+## Overview
+Multi-View learning for multi-label metabolic Pathway prediction framework, hereby named MVP incorporating multi-view compound information, compound encoders, and a fusion module.
 ![image](./img/MVP.png)
 
 ## Dependencies
