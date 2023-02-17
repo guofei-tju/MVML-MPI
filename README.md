@@ -41,7 +41,8 @@ The stsatistics of metabolic pathway dataset is shown as below:
 | Glycan Metabolism                           | 96                      | 2.30%          |
 
 
-The datasets are stored in ```./data/kegg_dataset.csv``` and contains 4,192 compound' SMILES and labels
+The datasets are stored in ```./data/kegg_dataset.csv``` and contains 4,192 compound' SMILES and labels.
+
 The file ```./data/data_index.txt``` contains the index number of train, validation, and test.
 
 ## Running the Experiment
@@ -63,4 +64,4 @@ $ python main.py
 <kbd>head</kbd> specifies the head size of multi-view attention.
 
 
-Use the command <code> python main.py -h </code>to check the meaning of other parameters.
+Use the command <code>python main.py -h</code>to check the meaning of other parameters.
