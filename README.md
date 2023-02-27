@@ -1,7 +1,7 @@
 # MVML-MPI: Multi-View Multi-Label Learning for Metabolic Pathway Inference
 
 ## Overview
-Multi-View learning for multi-label metabolic Pathway prediction framework, hereby named MVML-MPI incorporates multi-view compound information, compound encoders, and a fusion module.
+MVML-MPI: Multi-View Multi-Label Learning for Metabolic Pathway Inference. By incorporating distinct compound feature sets, corresponding compound encoders, and an attention mechanism providing a fusion module for feature refinement.
 ![image](./img/MVML-MPI.png)
 
 ## Dependencies
