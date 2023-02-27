@@ -26,7 +26,7 @@ The data preprocessing was carried out following the strategy outlined in [Auto-
 
 The statistics of the metabolic pathway dataset are shown below:
 
-| Metabolic Pathway                  | Classes Number | Ratio |
+| Metabolic Pathway                  | No.of Samples | Ratio |
 |---------------------------------------------|-------------------------|----------------|
 | Biosynthesis of Other Secondary Metabolites | 1084                    | 25.80%         |
 | Terpenoids and Polyketides Meatbolism       | 898                     | 21.40%         |
