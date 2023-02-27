@@ -1,8 +1,8 @@
-# Multi-View learning for multi-label metabolic Pathway prediction (MVP)
+# MVML-MPI: Multi-View Multi-Label Learning for Metabolic Pathway Inference
 
 ## Overview
-Multi-View learning for multi-label metabolic Pathway prediction framework, hereby named MVP incorporates multi-view compound information, compound encoders, and a fusion module.
-![image](./img/MVP.png)
+Multi-View learning for multi-label metabolic Pathway prediction framework, hereby named MVML-MPI incorporates multi-view compound information, compound encoders, and a fusion module.
+![image](./img/MVML-MPI.png)
 
 ## Dependencies
 The package depends on the Python==3.7.15:
@@ -20,7 +20,7 @@ rdkit==2022.9.3
 ```
 
 ## Datasets
-The dataset employed in this study was initially sourced from the publicly accessible KEGG pathway database, comprising $11$ distinct types of metabolic pathways.
+The dataset employed in this study was initially sourced from the publicly accessible KEGG pathway database, comprising 11 distinct types of metabolic pathways.
 
 The data preprocessing was carried out following the strategy outlined in [Auto-MRS](https://github.com/AutoMachine0/Auto-MSR).
 
